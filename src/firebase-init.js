@@ -1,0 +1,52 @@
+// // Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// import { getFirestore } from "firebase/firestore";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
+
+// // Your web app's Firebase configuration
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDCbKbDbgl9Qby9qmBuIy7j1d1jA1sC664",
+//   authDomain: "blog-new-911fc.firebaseapp.com",
+//   projectId: "blog-new-911fc",
+//   storageBucket: "blog-new-911fc.appspot.com",
+//   messagingSenderId: "1062228625402",
+//   appId: "1:1062228625402:web:82462e5cf2c899a833c643"
+// };
+
+// // Initialize Firebase
+// const app = initializeApp(firebaseConfig);
+
+// // Initialize Cloud Firestore and get a reference to the service
+// //Export the reference to be used in other files
+// export const db = getFirestore(app);
+
+// /**const firebaseConfig = {
+//   apiKey: "*********************************",
+//   authDomain: "*******************************",
+//   projectId: "***********************",
+//   storageBucket: "******************************",
+//   messagingSenderId: "******************",
+//   appId: "************************"
+// }; */
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCKO9IQkG4quH1yKvp5nzTqKk3lhIlmfUI",
+  authDomain: "blogging1-b64df.firebaseapp.com",
+  projectId: "blogging1-b64df",
+  storageBucket: "blogging1-b64df.firebasestorage.app",
+  messagingSenderId: "261189595407",
+  appId: "1:261189595407:web:1e70357478e253a3558e7a"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+export const  db = getFirestore(app)
